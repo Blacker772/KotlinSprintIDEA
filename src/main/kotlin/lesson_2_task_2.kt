@@ -1,6 +1,7 @@
 package org.example
 
 fun main(){
+
     val employee = 50
     val employeeSalary = 30000
     val interns = 30
