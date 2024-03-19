@@ -15,5 +15,4 @@ fun main(){
 
     val averageMark = studentAverage.sum()/studentAverage.size
     println(averageMark)
-
 }
