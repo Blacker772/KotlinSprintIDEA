@@ -1,6 +1,7 @@
 package org.example
 
 fun main(){
+
     val name = "Татьяна"
     var surname = "Андреева"
     val patronymic = "Сергеевна"
