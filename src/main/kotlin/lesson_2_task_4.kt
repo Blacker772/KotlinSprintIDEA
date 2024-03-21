@@ -1,6 +1,7 @@
 package org.example
 
 fun main() {
+
     val buff = 20
     val crystal = 7
     val ironOre = 11
