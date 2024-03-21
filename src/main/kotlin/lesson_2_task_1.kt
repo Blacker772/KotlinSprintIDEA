@@ -1,16 +1,17 @@
 package org.example
 
 fun main() {
-    val studentOne = 3.0
-    val studentTwo = 4.0
-    val studentTree = 3.0
-    val studentFour = 5.0
-    val numbersOfStudent = 4.0
 
-    val averageRating = (studentOne + studentTwo + studentTree + studentFour) / numbersOfStudent
+    val studentOne = 3
+    val studentTwo = 4
+    val studentTree = 3
+    val studentFour = 5
+    val numbersOfStudent = 4
+
+    val averageRating = (studentOne + studentTwo + studentTree + studentFour) / numbersOfStudent.toFloat()
     println(String.format("%.2f", averageRating))
 
-    val studentAverage = arrayOf(3.0, 4.0, 3.0, 5.0)
-    val averageMark = studentAverage.sum() / studentAverage.size
+    val studentAverage = arrayOf(3, 4, 3, 5)
+    val averageMark = studentAverage.sum() / studentAverage.size.toFloat()
     println(String.format("%.2f", averageMark))
 }
