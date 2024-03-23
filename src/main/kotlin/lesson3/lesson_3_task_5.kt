@@ -1,4 +1,4 @@
-package org.example
+package org.example.lesson3
 
 fun main() {
     val userStep = "D2-D4;0"

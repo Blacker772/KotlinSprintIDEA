@@ -1,4 +1,4 @@
-package org.example
+package org.example.lesson2
 
 fun main() {
     val timeDepartureHour = 9
